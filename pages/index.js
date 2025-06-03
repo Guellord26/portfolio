@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className="flex items-center justify-center min-h-[80vh] bg-gray-50 px-10">
        <Image
-        priority
         src={Informatique_gestion}
         alt="Image d'accueil"
         width={600}
