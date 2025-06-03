@@ -1,12 +1,17 @@
 import Link from "next/link";
+import Image from 'next/image'
 
 export default function ProjectCard({ project }) {
   return (
     <div className="bg-white rounded shadow-md overflow-hidden">
-      <img
-        src={project.image}
+      <Image
+        priority
+        src="images/Informatique_gestion_1.jpg"
         alt={project.title}
-        className="w-full h-48 object-cover"
+        width={600}
+        height={300}
+        className="w-40 h-40 object-cover rounded-full shadow-md mb-6 md:mb-0"
+        priority
       />
       <div className="p-4">
         <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
