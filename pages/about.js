@@ -12,7 +12,6 @@ export default function About() {
         width={600}
         height={300}
         className="w-40 h-40 object-cover rounded-full shadow-md mb-6 md:mb-0"
-        priority
       />
         <div>
           <p className="text-gray-700 mb-4">
