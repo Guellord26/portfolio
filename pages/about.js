@@ -1,15 +1,19 @@
+import Image from 'next/image'
 export default function About() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-6 text-gray-800">À propos de moi</h1>
 
       <div className="flex flex-col md:flex-row items-center md:space-x-8">
-        <img
-          src="/images/profil.png" // mets ta vraie image dans public/images
-          alt="Photo de profil"
-          className="w-40 h-40 object-cover rounded-full shadow-md mb-6 md:mb-0"
-        />
-
+        <Image
+        priority
+        src="/images/profil.png"
+        alt="Image d'accueil"
+        width={600}
+        height={300}
+        className="className="w-40 h-40 object-cover rounded-full shadow-md mb-6 md:mb-0""
+        priority
+      />
         <div>
           <p className="text-gray-700 mb-4">
             Salut ! Je m'appelle <strong>TonNom</strong> et je suis développeur
