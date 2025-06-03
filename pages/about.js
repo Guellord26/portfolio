@@ -16,13 +16,13 @@ export default function About() {
         <div>
           <p className="text-gray-700 mb-4">
             Salut ! Je m&apos;appelle <strong>TonNom</strong> et je suis développeur
-            web fullstack passionné. J'\'aime créer des interfaces modernes et
+            web fullstack passionné. J&apos;aime créer des interfaces modernes et
             performantes avec React, Next.js et TailwindCSS.
           </p>
 
           <p className="text-gray-700 mb-4">
-            J'\'ai travaillé sur plusieurs projets web, desktop et mobiles —
-            toujours avec une approche centrée sur l'\'utilisateur et la
+            J&apos;ai travaillé sur plusieurs projets web, desktop et mobiles —
+            toujours avec une approche centrée sur l&apos;utilisateur et la
             performance.
           </p>
 
