@@ -6,11 +6,11 @@ export default function ProjectCard({ project }) {
     <div className="bg-white rounded shadow-md overflow-hidden">
       <Image
         priority
-        src="images/Informatique_gestion_1.jpg"
+        src="/images/Informatique_gestion_1.jpg"
         alt={project.title}
         width={600}
         height={300}
-        className="w-40 h-40 object-cover rounded-full shadow-md mb-6 md:mb-0"
+        className="w-full h-48 object-cover shadow-md mb-6 md:mb-0"
         priority
       />
       <div className="p-4">
